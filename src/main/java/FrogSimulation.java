@@ -21,6 +21,7 @@ public class FrogSimulation
 			frogPosition+=hopDistance();
 			hopsRemaining--;
 		}
+		return frogPosition>=goalDistance;
 	}
 	
 	public double runSimulations(int num)
